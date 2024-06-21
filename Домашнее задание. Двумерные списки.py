@@ -9,7 +9,7 @@ t=0
 for row in range(3):
     matrix.append([i+1 for i in range(t,t+3)])
     t+=3
-print(matrix)
+#print(matrix)
 for row in range(3):
     for column in range(3):
         print(matrix[row][column], end=' ')
